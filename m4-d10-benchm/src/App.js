@@ -8,13 +8,13 @@ import SideBar from "./components/SideBar";
 
 function App() {
     return (
-        <Container>
-            <Row>
-                <Col>
-                    <SideBar />
-                </Col>
-                <Col>
-                    <BrowserRouter>
+        <BrowserRouter>
+            <Container>
+                <Row>
+                    <Col>
+                        <SideBar />
+                    </Col>
+                    <Col>
                         <Routes>
                             <Route path="/" element={<Home />} />
                             <Route path="/albumPage" element={<AlbumPage />} />
@@ -23,10 +23,10 @@ function App() {
                                 element={<ArtistPage />}
                             />
                         </Routes>
-                    </BrowserRouter>
-                </Col>
-            </Row>
-        </Container>
+                    </Col>
+                </Row>
+            </Container>
+        </BrowserRouter>
     );
 }
 

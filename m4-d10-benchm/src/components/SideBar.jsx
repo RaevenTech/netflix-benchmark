@@ -3,13 +3,14 @@ import { ImBooks } from "react-icons/im"
 import { BsSearch } from "react-icons/bs"
 import { HiOutlineHome } from "react-icons/hi"
 import { Link } from "react-router-dom";
+import classes from "./SideBar.module.css"
 
 export default function SideBar() {
   return (
     <div className="sidebar__wrap">
     <div className="top-part">
       <Link to={"/"}>
-        <img src={"https://cpng.pikpng.com/pngl/s/271-2719878_spotify-logo-png-transparent-spotify-logo-clipart.png"} className='logo' alt="sidebar-logo" />
+        <img  className={classes.logo} src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-250x150.jpg"  alt="sidebar-logo" />
       </Link>
       <div className='menu__single selected__menu'>
         <HiOutlineHome className='menu__item' /> Home
