@@ -1,0 +1,159 @@
+@import url("http://fonts.cdnfonts.com/css/gotham");
+/* font-family: 'Gotham', sans-serif;
+font-family: 'Gotham Black', sans-serif;
+font-family: 'Gotham Light', sans-serif;
+font-family: 'Gotham Thin', sans-serif;
+font-family: 'Gotham XLight', sans-serif;
+font-family: 'Gotham Book', sans-serif;
+font-family: 'Gotham Ultra', sans-serif; */
+
+body {
+    background: linear-gradient(
+        3deg,
+        rgba(0, 0, 0, 1) 7%,
+        rgba(0, 0, 0, 1) 38%,
+        rgba(0, 0, 0, 0.8827906162464986) 76%
+    );
+    color: #ececec;
+}
+.container {
+    margin-right: 0px;
+}
+/*----------------- horizontal nav----------------------*/
+
+/*----------------- hero section -----------------------*/
+
+#album-page-hero {
+    background: rgb(217, 2, 216);
+    background: linear-gradient(
+        45deg,
+        rgba(217, 2, 216, 1) 7%,
+        rgba(116, 39, 167, 1) 38%,
+        rgba(60, 0, 119, 1) 76%
+    );
+}
+
+#hero-img {
+    padding: 15px;
+}
+/*------------ side nav-------------------------*/
+#navbar {
+    background: rgb(2, 2, 2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    color: #fff;
+    height: 80vh;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.p-lists {
+    line-height: 8px;
+    font-size: 12px;
+}
+.links-small-nav {
+    font-weight: 600;
+    opacity: 0.7;
+    margin-left: 5px;
+    text-align: left;
+}
+.links-small-nav p {
+    padding-left: 5px;
+    font-size: 14px;
+    overflow: hidden;
+    width: 90%;
+    text-align: left;
+    margin: 0px;
+}
+.links-small-nav:hover {
+    opacity: 1;
+}
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.hr-nav {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    background-color: #6c757d70;
+}
+
+#installApp-sticky {
+    position: absolute;
+    opacity: 0.7;
+    margin-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    color: white !important;
+}
+
+.scroll-content {
+    /* width: 5px;
+    height: 10 px; */
+    overflow-y: scroll;
+}
+/*------------------- green play icon heart dots -------------------------*/
+.bi-play-circle-fill {
+    color: #12e25b;
+    font-size: 4em;
+    cursor: pointer;
+}
+.bi-heart {
+    color: #96587e;
+    font-size: 35px;
+    align-content: center;
+    cursor: pointer;
+}
+#page-heart-icon {
+    padding-top: 20px;
+    padding-left: 23px;
+    padding-right: 0px;
+}
+#page-dots-icon {
+    padding: 20px 0px 20px 0px;
+}
+
+/*--------------------- icons #title clock -------------------*/
+.hashtag-title {
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+}
+#time-icon {
+    margin-left: 0px;
+}
+.clock-icon {
+    padding-left: 0px;
+}
+.hr-page {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    margin-right: 30px;
+}
+/*-------------------------- track list -------------------------*/
+.track-num {
+    margin-right: 1.5rem;
+}
+.title-song {
+    padding-left: 25px;
+}
+
+.singer-name {
+    margin-left: 36px;
+    font-size: 14px;
+}
+
+.album-page-album-info img {
+    height: 22px;
+    border-radius: 2rem;
+}
+/*  ------------- play heart ...  ----------------------------*/
+
+.singer-name {
+    margin-left: 36px;
+    font-size: 14px;
+}

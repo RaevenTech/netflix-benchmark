@@ -10,7 +10,7 @@ export default function SideBar() {
     <div className="sidebar__wrap">
     <div className="top-part">
       <Link to={"/"}>
-        <img  className={classes.logo} src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-250x150.jpg"  alt="sidebar-logo" />
+        <img  className={classes.logo} src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"  alt="sidebar-logo" />
       </Link>
       <div className='menu__single selected__menu'>
         <HiOutlineHome className='menu__item' /> Home

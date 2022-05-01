@@ -1,5 +1,3 @@
-
-   
 ::-webkit-scrollbar {
   width: 0.2vw;
   z-index: 6;
@@ -442,9 +440,9 @@ hr {
 .list-with-scroll-bar {
   overflow-y: scroll;
 }
- /*.bi {
+*/ .bi {
   font-size: 1.3em;
-}*/
+}
 
 /* End Sidebar  */
 .footer {
@@ -575,4 +573,8 @@ body > footer > div > div > div:nth-child(1) > div > div:nth-child(1) {
   100% {
     height: 52px;
   }
+}
+.search-form {
+  position: absolute;
+  right: 400px;
 }
